@@ -1,0 +1,58 @@
+.contenedor{
+    background-color: rgb(9, 127, 190);
+    max-width: 80%;
+    min-width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    color: aliceblue;
+    font-size: 40px;
+    gap: 50px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Nerko One', cursive;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.error{
+    font-size: 16px;
+    color: rgb(164, 18, 18);
+}
+.acierto{
+    font-size: 16px;
+    color: rgb(6, 212, 6);
+}
+
+form{
+    width: 90%;
+}
+
+input[type="submit"]  {
+    width: 70%;
+    border: 0;
+    background-color: aliceblue;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 50px;
+}
+input::placeholder{
+    color: rgb(240, 248, 255);
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 10px 0;
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px white;
+    color: aliceblue;
+}
+input:focus{
+    background-color: white;
+    color: black;
+    outline: 0;
+}
